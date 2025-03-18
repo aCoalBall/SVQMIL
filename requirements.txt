@@ -1,0 +1,15 @@
+h5py
+numpy
+opencv-python
+openslide-python
+pandas
+torch
+torchvision
+future
+scikit-learn
+timm
+matplotlib
+shapely
+lxml
+protobuf==3.20
+wandb

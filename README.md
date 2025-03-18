@@ -6,7 +6,6 @@ SVQ-MIL: Small-Cohort Whole Slide Image Classification via Split Vector Quantiza
 ```
 conda create --name vqmil python=3.12
 conda activate vqmil
-conda install conda-forge::openslide
 pip3 install -r requirements.txt
 ```
 
@@ -22,6 +21,8 @@ python create_patches_fp.py --source $YOUR_WSI_DIR --save_dir $TILES_DIR --patch
 python extract_features_fp.py --data_h5_dir $TILES_DIR --data_slide_dir $YOUR_WSI_DIR --csv_path $INFO_CSV --feat_dir $EMBEDDING_DIR --batch_size 512 --slide_ext .tif
 ```
 Then you can get a directory with embedding vectors within .pt files. Note the directory as $EMBEDDING_DIRECTORY_C16
+
+Alternatively, we also provide the extracted embeddings via [HuggingFace]https://huggingface.co/datasets/aCoalBall/SVQMIL-C16-Embeddings 
 
 Training
 

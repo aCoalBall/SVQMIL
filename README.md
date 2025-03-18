@@ -6,6 +6,7 @@ SVQ-MIL: Small-Cohort Whole Slide Image Classification via Split Vector Quantiza
 ```
 conda create --name vqmil python=3.12
 conda activate vqmil
+conda install conda-forge::openslide
 pip3 install -r requirements.txt
 ```
 

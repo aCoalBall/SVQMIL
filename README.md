@@ -22,7 +22,7 @@ python extract_features_fp.py --data_h5_dir $TILES_DIR --data_slide_dir $YOUR_WS
 ```
 Then you can get a directory with embedding vectors within .pt files. Note the directory as $EMBEDDING_DIRECTORY_C16
 
-Alternatively, we also provide the extracted embeddings via [HuggingFace]https://huggingface.co/datasets/aCoalBall/SVQMIL-C16-Embeddings 
+Alternatively, we also provide the extracted embeddings via [HuggingFace](https://huggingface.co/datasets/aCoalBall/SVQMIL-C16-Embeddings) 
 
 Training
 

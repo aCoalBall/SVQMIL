@@ -1,6 +1,8 @@
 SVQ-MIL: Small-Cohort Whole Slide Image Classification via Split Vector Quantization
 ======
 
+![Pipeline](figures/svqmil.png)
+
 SVQ-MIL is a framework that employs split vector quantization (SVQ) with a learnable codebook to quantize instance embeddings. The learned codebook reduces embedding variability and simplifies the MIL model, making it more suitable for small-cohort datasets. SVQ-MIL also enhances model's interpretability, providing an additional profile of the WSI instances through the codebook.
 
 ## Installation and Dependencies

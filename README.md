@@ -8,6 +8,7 @@ SVQ-MIL is a framework that employs split vector quantization (SVQ) with a learn
 ```
 conda create --name vqmil python=3.12
 conda activate vqmil
+conda install conda-forge::openslide
 pip3 install -r requirements.txt
 ```
 

@@ -13,25 +13,3 @@ TRANSFORM = transforms.Compose([
 
 
 DEVICE = torch.device('cuda')
-
-
-wsi_dict = {
-    'camelyon16': '/home/coalball/projects/WSI/camelyon16/wsis',
-}
-
-label_dict = {
-    'camelyon16': 'labels/labels_all.csv',
-}
-
-h5_dict = {
-    'camelyon16': 'patches/Camelyon16_patch224_ostu/patches',
-}
-
-annotation_dict = {
-    'camelyon16': 'annotations',
-}
-
-feature_dict = {
-    'camelyon16': 'data_feat/res50_imgn/Camelyon16_patch224_ostu_train/h5_files',
-    'imgnet' : '../data/imgnet/resnet_features.pth',
-}

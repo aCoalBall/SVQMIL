@@ -4,7 +4,7 @@ import random
 import torch
 
 from constants import *
-from tasks.train import train_vqmil, train_s_vqmil, train_mil
+from tasks.train import train_s_vqmil
 
 def get_args_parser():
     parser = argparse.ArgumentParser('Experiments', add_help=False)

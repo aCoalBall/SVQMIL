@@ -3,7 +3,6 @@ from lxml import etree
 import pandas as pd
 from shapely import Polygon
 import os
-import openslide
 import torch
     
 
